@@ -1,8 +1,10 @@
+type Type = 'Hello' | 'World'
+
 function sayHello(hello: string) {
   console.log(hello);
 }
 
-function print(message: 'Hello' | 'World') {
+function print(message: Type) {
   if (message === 'Hello') {
     return;
   }
