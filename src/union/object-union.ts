@@ -17,3 +17,10 @@ const poem: Poem2 = Math.random() > 0.5
 console.log(poem.name);
 // console.log(poem.pages);
 // console.log(poem.rhymes);
+
+// 객체 타입도 내로잉을 할 수 있다.
+if ('pages' in poem) {
+  console.log(poem.pages);
+} else {
+  console.log(poem.rhymes);
+}
