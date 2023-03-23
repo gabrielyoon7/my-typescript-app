@@ -1,0 +1,2 @@
+let nothingInGivesString: () => string;
+nothingInGivesString();
