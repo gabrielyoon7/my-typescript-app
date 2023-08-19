@@ -11,9 +11,9 @@ type MyPick<T, K extends keyof T> = {
 }
 
 interface Todo {
-  title: string
-  description: string
-  completed: boolean
+  title: string;
+  description: string;
+  completed: boolean;
 }
 
 type TodoPreview1 = MyPick<Todo, 'title' | 'completed'>
